@@ -1,0 +1,3 @@
+# ID, tipo e quantidade de tipos de vacinas que cada unidade de vacinação possui
+SELECT U.ID, U.TIPO, COUNT(*) AS QUANTIDADE FROM UNIDADE_VACINACAO AS U, VACINA AS V, POSSUI_VACINA AS PV
+WHERE U.ID = PV.ID_POSTO AND PV.NOME_VACINA = V.NOME GROUP BY U.ID;
