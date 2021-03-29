@@ -1,0 +1,7 @@
+CoronaVac
+AstraZeneca
+SputnikV
+Pfizer
+Johnson&Johnson
+Butanvac
+Versamune
